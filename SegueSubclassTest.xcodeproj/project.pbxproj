@@ -12,8 +12,12 @@
 		20146C1D1BEE7ECE00ADE316 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20146C1B1BEE7ECE00ADE316 /* Main.storyboard */; };
 		20146C1F1BEE7ECE00ADE316 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20146C1E1BEE7ECE00ADE316 /* Assets.xcassets */; };
 		20146C221BEE7ECE00ADE316 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20146C201BEE7ECE00ADE316 /* LaunchScreen.storyboard */; };
-		20146C2D1BEE7ECE00ADE316 /* SegueSubclassTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20146C2C1BEE7ECE00ADE316 /* SegueSubclassTestTests.swift */; };
 		20146C381BEE7ECF00ADE316 /* SegueSubclassTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20146C371BEE7ECF00ADE316 /* SegueSubclassTestUITests.swift */; };
+		20146C461BEE7EDC00ADE316 /* PersonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20146C451BEE7EDC00ADE316 /* PersonTests.swift */; };
+		20146C481BEE7F8E00ADE316 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20146C471BEE7F8E00ADE316 /* Person.swift */; };
+		20146C4A1BEE82EA00ADE316 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20146C491BEE82EA00ADE316 /* ViewControllerTests.swift */; };
+		20146C4C1BEE8ACC00ADE316 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20146C4B1BEE8ACC00ADE316 /* DetailViewController.swift */; };
+		20F9641E1BEE903200CAA06F /* ShowPersonDetailSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F9641D1BEE903200CAA06F /* ShowPersonDetailSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,11 +46,15 @@
 		20146C211BEE7ECE00ADE316 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20146C231BEE7ECE00ADE316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20146C281BEE7ECE00ADE316 /* SegueSubclassTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueSubclassTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		20146C2C1BEE7ECE00ADE316 /* SegueSubclassTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueSubclassTestTests.swift; sourceTree = "<group>"; };
 		20146C2E1BEE7ECE00ADE316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20146C331BEE7ECF00ADE316 /* SegueSubclassTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegueSubclassTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20146C371BEE7ECF00ADE316 /* SegueSubclassTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueSubclassTestUITests.swift; sourceTree = "<group>"; };
 		20146C391BEE7ECF00ADE316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20146C451BEE7EDC00ADE316 /* PersonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTests.swift; sourceTree = "<group>"; };
+		20146C471BEE7F8E00ADE316 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		20146C491BEE82EA00ADE316 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		20146C4B1BEE8ACC00ADE316 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = SegueSubclassTestTests/DetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		20F9641D1BEE903200CAA06F /* ShowPersonDetailSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowPersonDetailSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,11 @@
 		20146C161BEE7ECE00ADE316 /* SegueSubclassTest */ = {
 			isa = PBXGroup;
 			children = (
+				20F9641D1BEE903200CAA06F /* ShowPersonDetailSegue.swift */,
 				20146C171BEE7ECE00ADE316 /* AppDelegate.swift */,
 				20146C191BEE7ECE00ADE316 /* ViewController.swift */,
+				20146C4B1BEE8ACC00ADE316 /* DetailViewController.swift */,
+				20146C471BEE7F8E00ADE316 /* Person.swift */,
 				20146C1B1BEE7ECE00ADE316 /* Main.storyboard */,
 				20146C1E1BEE7ECE00ADE316 /* Assets.xcassets */,
 				20146C201BEE7ECE00ADE316 /* LaunchScreen.storyboard */,
@@ -110,7 +121,8 @@
 		20146C2B1BEE7ECE00ADE316 /* SegueSubclassTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				20146C2C1BEE7ECE00ADE316 /* SegueSubclassTestTests.swift */,
+				20146C491BEE82EA00ADE316 /* ViewControllerTests.swift */,
+				20146C451BEE7EDC00ADE316 /* PersonTests.swift */,
 				20146C2E1BEE7ECE00ADE316 /* Info.plist */,
 			);
 			path = SegueSubclassTestTests;
@@ -256,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20146C481BEE7F8E00ADE316 /* Person.swift in Sources */,
 				20146C1A1BEE7ECE00ADE316 /* ViewController.swift in Sources */,
+				20F9641E1BEE903200CAA06F /* ShowPersonDetailSegue.swift in Sources */,
 				20146C181BEE7ECE00ADE316 /* AppDelegate.swift in Sources */,
+				20146C4C1BEE8ACC00ADE316 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20146C2D1BEE7ECE00ADE316 /* SegueSubclassTestTests.swift in Sources */,
+				20146C4A1BEE82EA00ADE316 /* ViewControllerTests.swift in Sources */,
+				20146C461BEE7EDC00ADE316 /* PersonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +500,7 @@
 				20146C3E1BEE7ECF00ADE316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20146C3F1BEE7ECF00ADE316 /* Build configuration list for PBXNativeTarget "SegueSubclassTestTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +509,7 @@
 				20146C411BEE7ECF00ADE316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20146C421BEE7ECF00ADE316 /* Build configuration list for PBXNativeTarget "SegueSubclassTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +518,7 @@
 				20146C441BEE7ECF00ADE316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

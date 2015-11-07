@@ -47,6 +47,11 @@
                BlueprintName = "SegueSubclassTestUITests"
                ReferencedContainer = "container:SegueSubclassTest.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "SegueSubclassTestUITests/testExample()">
+               </Test>
+            </SkippedTests>
          </TestableReference>
       </Testables>
       <MacroExpansion>
